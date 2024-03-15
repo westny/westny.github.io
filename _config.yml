@@ -82,11 +82,11 @@ blogger_url: # your blogger URL
 work_url: https://liu.se/en/employee/thewe60 # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-dblp_url: https://dblp.org/pid/302/4224.html # your DBLP profile url
+dblp_url: # https://dblp.org/pid/302/4224.html your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  If you want to get in touch, please use the contact form on my work page.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
