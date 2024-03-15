@@ -6,7 +6,7 @@ subtitle: Linköping University #<a href='#'>Affiliations</a>. Address. Contacts
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: me.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ph.D. Student</p>
@@ -22,11 +22,11 @@ Tech. Lic. Theodor Westny is a Ph.D. Student at the [Division of Vehicular Syste
 His research is on AI and deep learning for applications in autonomous systems, generative modeling, learning continuous-time dynamics, autonomous motion planning and control as well as vehicle dynamics modeling. 
 He received his Technical Licentiate degree in May 2023 after he successfully defended his thesis titled ["Data-Driven Interaction-Aware Behavior Prediction for Autonomous Vehicles"](https://www.diva-portal.org/smash/get/diva2:1750366/FULLTEXT01.pdf) and is currently working toward obtaining his doctoral degree.
 
-He joined the Division of Vehicular Systems in August 2020 after obtaining his MSc. in Electrical Engineering with the thesis ["Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers"](https://liu.diva-portal.org/smash/get/diva2:1452891/FULLTEXT01.pdf). 
+He joined the Division of Vehicular Systems in August 2020 after obtaining his MSc. Degree in Electrical Engineering with the thesis ["Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers"](https://liu.diva-portal.org/smash/get/diva2:1452891/FULLTEXT01.pdf). 
 During his engineering studies, he did an exchange semester at [UNSW](https://www.unsw.edu.au/), Sydney, Australia and completed several software developer internships, including a visit in 2020 to the motion planning and controls team at [Embark Trucks](https://embarktrucks.com/), San Francisco, USA.
 Since 2018, he has been an active member of the global talent network, [Nova](https://www.novatalent.com/).
 
-### Current interests
+### Research interests
 
 * Spatio-temporal data analysis
   * Multi-agent Trajectory Prediction
