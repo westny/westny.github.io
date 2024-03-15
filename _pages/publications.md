@@ -10,6 +10,10 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography %}
+ <h2 class="year">Papers</h2>
+{% bibliography --file papers %}
+
+ <h2 class="year">Theses</h2>
+{% bibliography --file theses %}
 
 </div>
