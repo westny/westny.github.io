@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: [Linköping University](https://liu.se/en/organisation/liu/isy/fs) #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Linköping University #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: left
