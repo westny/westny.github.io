@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: [Linköping University](https://liu.se/en/organisation/liu/isy/fs) #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -18,13 +18,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Technical Licentiate Theodor Westny is a Ph.D. Student at the [Division of Vehicular Systems](https://liu.se/en/organisation/liu/isy/fs), Department of Electrical Engineering, Linköping University, Sweden. 
+Tech. Lic. Theodor Westny is a Ph.D. Student at the [Division of Vehicular Systems](https://liu.se/en/organisation/liu/isy/fs), Department of Electrical Engineering, Linköping University, Sweden. 
 His research is on AI and deep learning for applications in autonomous systems, generative modeling, learning continuous-time dynamics, autonomous motion planning and control as well as vehicle dynamics modeling. 
 He received his Technical Licentiate degree in May 2023 after he successfully defended his thesis titled ["Data-Driven Interaction-Aware Behavior Prediction for Autonomous Vehicles"](https://www.diva-portal.org/smash/get/diva2:1750366/FULLTEXT01.pdf) and is currently working toward obtaining his doctoral degree.
 
 He joined the Division of Vehicular Systems in August 2020 after obtaining his MSc. in Electrical Engineering with the thesis ["Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers"](https://liu.diva-portal.org/smash/get/diva2:1452891/FULLTEXT01.pdf). 
 During his engineering studies, he did an exchange semester at [UNSW](https://www.unsw.edu.au/), Sydney, Australia and completed several software developer internships, including a visit in 2020 to the motion planning and controls team at [Embark Trucks](https://embarktrucks.com/), San Francisco, USA.
-Since 2018, he has been an active member of the international talent network, [Nova](https://www.novatalent.com/).
+Since 2018, he has been an active member of the global talent network, [Nova](https://www.novatalent.com/).
 
 ### Current interests
 
