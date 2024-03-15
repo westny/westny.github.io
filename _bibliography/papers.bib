@@ -1,93 +1,68 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@article{westny2023graph,
+  journal={IEEE Transactions on Intelligent Vehicles},
+  title="{MTP-GO}: Graph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODEs}",
+  year={2023},
+  volume={8},
+  number={9},
+  pages={4223-4236},
+  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  abstract = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  doi={10.1109/TIV.2023.3282308},
+  pdf = {https://ieeexplore.ieee.org/abstract/document/10143287},
+  code = {https://github.com/westny/mtp-go},
+  preview = {mtp_preview.png},
+  selected={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{westny2023evaluation,
+  title={Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
+  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  booktitle={Intelligent Vehicles Symposium (IV)},
+  year={2023},
+  abstract = {Given their flexibility and encouraging performance, deep-learning models are becoming standard for motion prediction in autonomous driving. However, with great flexibility comes a lack of interpretability and possible violations of physical constraints. Accompanying these data-driven methods with differentially-constrained motion models to provide physically feasible trajectories is a promising future direction. The foundation for this work is a previously introduced graph-neural-network-based model, MTP-GO. The neural network learns to compute the inputs to an underlying motion model to provide physically feasible trajectories. This research investigates the performance of various motion models in combination with numerical solvers for the prediction task. The study shows that simpler models, such as low-order integrator models, are preferred over more complex, e.g., kinematic models, to achieve accurate predictions. Further, the numerical solver can have a substantial impact on performance, advising against commonly used first-order methods like Euler forward. Instead, a second-order method like Heun's can greatly improve predictions.},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  doi={10.1109/IV55152.2023.10186615},
+  pdf = {https://ieeexplore.ieee.org/document/10186615},
+  code = {https://github.com/westny/mtp-go},
+  preview = {thumb_evaluation_diff.png},
+  selected={true},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  selected={true}
+@inproceedings{westny2021vehicle,
+	title={Vehicle Behavior Prediction and Generalization Using Imbalanced Learning Techniques},
+	author={Westny, Theodor and Frisk, Erik and Olofsson, Bj{\"o}rn},
+	booktitle={International Conference on Intelligent Transportation Systems (ITSC)},
+	pages={2003--2010},
+	year={2021},
+  abstract = {The use of learning-based methods for vehicle behavior prediction is a promising research topic. However, many publicly available data sets suffer from class distribution skews which limits learning performance if not addressed. This paper proposes an interaction-aware prediction model consisting of an LSTM autoencoder and SVM classifier. Additionally, an imbalanced learning technique, the multiclass balancing ensemble is proposed. Evaluations show that the method enhances model performance, resulting in improved classification accuracy. Good generalization properties of learned models are important and therefore a generalization study is done where models are evaluated on unseen traffic data with dissimilar traffic behavior stemming from different road configurations. This is realized by using two distinct highway traffic recordings, the publicly available NGSIM US-101 and I80 data sets. Moreover, methods for encoding structural and static features into the learning process for improved generalization are evaluated. The resulting methods show substantial improvements in classification as well as generalization performance.},
+  organization={IEEE},
+  pdf = {https://ieeexplore.ieee.org/document/9564948},
+  doi={10.1109/ITSC48978.2021.9564948},
+  code = {https://github.com/westny/imb-behavior-prediction},
+  preview = {imb_preview.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{westny2022robust,
+	title={Uncertainties in Robust Planning and Control of Autonomous Tractor-Trailer Vehicles},
+	author={Westny, Theodor and Olofsson, Björn and Frisk, Erik},
+	booktitle={15th International Symposium on Advanced Vehicle Control (AVEC'22)},
+	year={2022},
+  abstract = {To study the effects of uncertainty in autonomous motion planning and control, an 8-DOF model of a tractor-semitrailer is implemented and analyzed. The implications of uncertainties in the model are then quantified and presented using sensitivity analysis and closed-loop simulations. The analysis reveals that the significance of various model parameters varies depending on the specific scenario under investigation. By using sampling-based closed-loop predictions, uncertainty bounds on state variable trajectories are determined. Our findings suggest the potential for the inclusion of our method within a robust predictive controller or as a driver-assistance system for rollover or lane departure warnings.},
+  pdf = {https://arxiv.org/abs/2311.14573},
+  preview = {unc_preview.png}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{westny2023stability,
+  title="Stability-Informed Initialization of Neural Ordinary Differential Equations",
+  author={Westny, Theodor and Mohammadi, Arman and Jung, Daniel and Frisk, Erik},
+  journal={arXiv preprint arXiv:2311.15890},
+  year={2023},
+  abstract = {This paper addresses the training of Neural Ordinary Differential Equations (neural ODEs), and in particular explores the interplay between numerical integration techniques, stability regions, step size, and initialization techniques. It is shown how the choice of integration technique implicitly regularizes the learned model, and how the solver's corresponding stability region affects training and prediction performance. From this analysis, a stability-informed parameter initialization technique is introduced. The effectiveness of the initialization method is displayed across several learning benchmarks and industrial applications.},
+  pdf = {https://arxiv.org/abs/2311.15890},
+  preview = {stb_preview.png},
+  code = {https://github.com/westny/neural-stability},
+  selected={true},
 }
