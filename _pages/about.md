@@ -9,9 +9,9 @@ profile:
   image: me.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p style="text-align: right;">Ph.D. Student</p>
-    <p style="text-align: right;">AI, ML, Control</p>
-    <p style="text-align: right;">Autonomous Vehicles</p>
+    <p align="right">Ph.D. Student</p>
+    <p align="right">AI, ML, Control</p>
+    <p align="right">Autonomous Vehicles</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
