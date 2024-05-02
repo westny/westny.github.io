@@ -2,6 +2,7 @@ github_users:
   - westny
 
 github_repos:
+  - westny/dronalize
   - westny/mtp-go
   - westny/neural-stability
   - westny/imb-behavior-prediction
