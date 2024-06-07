@@ -9,7 +9,7 @@ profile:
   image: me.png
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p align="right">Ph.D. Student</p>
+    <p align="right">Ph.D. Candidate</p>
     <p align="right">AI, ML, Control</p>
     <p align="right">Autonomous Vehicles</p>
 
@@ -26,21 +26,34 @@ He joined the Division of Vehicular Systems in August 2020 after obtaining his M
 During his engineering studies, he did an exchange semester at [UNSW](https://www.unsw.edu.au/), Sydney, Australia and completed several software developer internships, including a visit in 2020 to the motion planning and controls team at [Embark Trucks](https://embarktrucks.com/), San Francisco, USA.
 Since 2018, he has been an active member of the global talent network, [Nova](https://www.novatalent.com/).
 
-### Research interests
+### Research Interests
 
-* Spatio-temporal data analysis
+* Spatio-Temporal Data Analysis
   * Multi-agent Trajectory Prediction
-  * Machine learning on social graphs, (Temporal) GNNs
+  * Learning on graphs, (Temporal) GNNs
   * Learning continuous-time dynamics, Neural ODEs, PINN
-* Probabilistic modeling
+* Probabilistic and Generative Modeling
   * Diffusion models
   * Mixture density networks
   * Variational Autoencoders
-* Heavy Vehicles
+* Autonomous Vehicles
   * Vehicle dynamics modeling
   * Predictive control
   * Advanced driver assistance systems
 
+### Selected Ph.D. Course Work
+* Neural Networks and Deep Learning (6 ECTS)
+* Reinforcement Learning (6 ECTS)
+* Machine Learning for Computer Vision (6 ECTS)
+* Graph Learning (6 ECTS)
+* Probabilistic Artificial Intelligence (Summer school, 7.5 ECTS)
+* Advanced Machine Learning (6 ECTS)
+* Generalization of Overparameterized Models and Double Descent (3 ECTS)
+* Statistical Inference and Applications (6 ECTS)
+* Simulation of ODEs and DAEs (9 ECTS)
+* Advanced Motion Planning and Control (9 ECTS)
+* Optimal Vehicle Maneuvers (6 ECTS)
+* Observer Theory and Non-linear Design Techniques (6 ECTS)
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
