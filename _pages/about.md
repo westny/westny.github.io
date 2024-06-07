@@ -41,7 +41,7 @@ Since 2018, he has been an active member of the global talent network, [Nova](ht
   * Predictive control
   * Advanced driver assistance systems
 
-### Selected Ph.D. Course Work
+### Selected Ph.D. Coursework
 * Neural Networks and Deep Learning (6 ECTS)
 * Reinforcement Learning (6 ECTS)
 * Machine Learning for Computer Vision (6 ECTS)
