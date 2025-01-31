@@ -1,4 +1,25 @@
-@phdthesis{westny2023data,
+@phdthesis{westny2024context,
+  title        = {Context-Aware Behavior Prediction for Autonomous Driving},
+  author       = {Westny, Theodor},
+  abstract 	   = {Autonomous vehicles (AVs) are set to transform transportation by providing safer, more efficient, and accessible mobility solutions. However, deploying AV systems requires designers to ensure these vehicles can navigate complex, dynamic traffic environments safely and precisely. A vital component of this capability is the ability to predict the behavior of surrounding road users, yet achieving reliable predictions is a complex task. This thesis investigates several challenges in trajectory and intention prediction for autonomous driving, focusing on contextual awareness, probabilistic modeling, and differential motion constraints.
+
+  A primary focus of this thesis is context awareness, which includes interaction-aware (agent-to-agent) and environment-aware (road-to-agent) modeling. Early approaches to context awareness involved manually crafting interaction features. While effective, these methods rely on predefined heuristics and often scale poorly as environmental complexity increases. To address these limitations, the thesis adopts a graph-based approach that offers greater flexibility and expressiveness. By constructing relational graphs, graph neural networks can be used to learn agent interactions and environmental context in a data-driven manner. The thesis proposes several context-aware models and provides an extensive evaluation of their mechanisms, highlighting their overall impact on prediction performance.
+
+  Another core theme of this thesis is addressing the inherent uncertainty and non-determinism of traffic environments. This involves creating models that provide probabilistic predictions. Given the multimodal nature of road-traffic agent behavior, it is also important to design methods that offer multiple candidate predictions for a single condition, enabling AVs to account for different possible future outcomes. This thesis proposes several context-aware frameworks that leverage probabilistic modeling, illustrating how ensemble methods, mixture density networks, and diffusion-based generative models can be adapted to provide uncertainty estimates and multimodal predictions.
+
+  While neural networks are well-suited for capturing the complex dynamics of traffic, they do not inherently ensure that outputs conform to physical laws, which poses risks in safety-critical applications. To address this, the thesis incorporates differential motion constraints into the prediction framework to ensure that predicted trajectories are accurate, physically feasible, and robust to noise. In addition to improving prediction accuracy, it is demonstrated how this integration enhances interpretation, extrapolation, and generalization capabilities.
+
+  The use of neural ordinary differential equations is a central component of this thesis, providing a data-driven approach to modeling the motion of agents---such as pedestrians---that are challenging to describe using physical laws or rule-based methods. The thesis investigates their application beyond motion prediction to a wide array of sequence modeling tasks, analyzing the effects of numerical integration techniques, stability regions, and initialization methods on model performance. A key contribution is the proposal of a stability-informed initialization (SII) technique, which significantly enhances model convergence, training stability, and prediction accuracy across various learning benchmarks.},
+  year         = 2024,
+  month        = {Dec},
+  pdf 		   = {https://www.diva-portal.org/smash/get/diva2:1917579/FULLTEXT01.pdf},
+  school       = {Linköping University, The Division of Vehicular Systems},
+  type         = {Ph.D. thesis},
+  note={No. 2419},
+}
+
+
+@mastersthesis{westny2023data,
   title        = {Data-Driven Interaction-Aware Behavior Prediction for Autonomous Vehicles},
   author       = {Westny, Theodor},
   abstract 	   = {Future progress toward the realization of fully self-driving vehicles still re-quires human-level social compliance, arguably 	dependent on the ability to accurately forecast the behavior of surrounding road users. Due to the inter-connected nature of traffic participants, in which the actions of one agent can significantly influence the decisions of others, the development of behavior pre-diction methods is crucial for achieving resilient autonomous motion planning. As high-quality data sets become more widely available and many vehicles already possess significant computing power, the possibility of adopting a data-driven approach for motion prediction is increasing. The first contribution is the design of an intention-prediction model based on autoencoders for highway scenarios. Specifically, the method targets the problem of data imbalance in highway traffic data using ensemble methods and data-sampling techniques. The study shows that commonly disregarded information holds potential use for improved prediction performance and the importance of dealing with the data imbalance problem. The second contribution is the development of a probabilistic motion pre-diction framework. The framework is used to evaluate various graph neural network architectures for multi-agent prediction across various traffic scenarios. The graph neural network computes the inputs to an underlying motion model, parameterized using neural ordinary differential equations. The method additionally introduces a novel uncertainty propagation approach by combining Gaussian mixture modeling and extended Kalman filtering techniques. The third contribution is attributed to the investigation of combing data-driven models with motion modeling and methods for numerical integration. The study illustrates that improved prediction performance can be achieved by the inclusion of differential constraints in the model, but that the choice of motion model as well as numerical solver can have a large impact on the prediction performance. It is also shown that the added differential constraints improve extrapolation properties compared to complete black-box approaches. The thesis illustrates the potential of data-driven methods and their usability for the behavior prediction problem. Still, there are additional challenges and interesting questions to investigate—the main one being the investigation of their use in autonomous navigation frameworks. },
@@ -7,9 +28,8 @@
   pdf 		   = {https://liu.diva-portal.org/smash/get/diva2:1750366/FULLTEXT01.pdf},
   school       = {Linköping University, The Division of Vehicular Systems},
   type         = {Licentiate thesis},
-  note={Licentiate thesis},
+  note={No. 1960},
 }
-% preview = {lic_preview.png}
 
 @mastersthesis{westny2020lateral,
 	title={Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers},

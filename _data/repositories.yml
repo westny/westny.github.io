@@ -5,4 +5,5 @@ github_repos:
   - westny/dronalize
   - westny/mtp-go
   - westny/neural-stability
+  - westny/neural-residual
   - westny/imb-behavior-prediction
