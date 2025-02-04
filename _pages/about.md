@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Linköping University #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
