@@ -1,126 +1,128 @@
 ---
 ---
-@article{westny2024dronalize,
-  title="Toward Unified Practices in Trajectory Prediction Research on Drone Datasets",
-  author={Westny, Theodor and Oskarsson, Bj{\"o}rn and Frisk, Erik},
-  journal={arXiv preprint arXiv:2405.00604},
-  year={2024},
-  abstract = {The availability of high-quality datasets is crucial
-    for the development of behavior prediction algorithms in
-    autonomous vehicles. This paper highlights the need for
-    standardizing the use of certain datasets for motion forecasting
-    research to simplify comparative analysis and proposes a set
-    of tools and practices to achieve this. Drawing on extensive
-    experience and a comprehensive review of current literature,
-    we summarize our proposals for preprocessing, visualizing, and
-    evaluation in the form of an open-sourced toolbox designed for
-    researchers working on trajectory prediction problems. The clear
-    specification of necessary preprocessing steps and evaluation
-    metrics is intended to alleviate development efforts and facilitate
-    the comparison of results across different studies. The toolbox
-    is available at: https://github.com/westny/dronalize.},
-  pdf = {https://arxiv.org/abs/2405.00604},
-  code = {https://github.com/westny/dronalize},
-  preview = {toolbox_logo.png},
-  bibtex_show={true},
-  selected={false},
+@inproceedings{westny2025dronalize,
+  title        = {Toward Unified Practices in Trajectory Prediction Research on Bird's-Eye-View Datasets},
+  author       = {Westny, Theodor and Oskarsson, Bj{\"o}rn and Frisk, Erik},
+  booktitle    = {Intelligent Vehicles Symposium (IV)},
+  year         = {2025},
+  abstract     = {The availability of high-quality datasets is crucial for developing behavior prediction algorithms in autonomous vehicles. This paper highlights the need to standardize the use of certain datasets for motion forecasting research to simplify comparative analysis and proposes a set of tools and practices to achieve this. Drawing on extensive experience and a comprehensive review of current literature, we summarize our proposals for preprocessing, visualization, and evaluation in the form of an open-sourced toolbox designed for researchers working on trajectory prediction problems. The clear specification of necessary preprocessing steps and evaluation metrics is intended to alleviate development efforts and facilitate the comparison of results across different studies. The toolbox is available at: https://github.com/westny/dronalize.},
+  organization = {IEEE},
+  pdf          = {https://arxiv.org/abs/2405.00604},
+  code         = {https://github.com/westny/dronalize},
+  preview      = {toolbox_logo.png},
+  bibtex_show  = {true},
+  selected     = {true}
 }
 
 @article{westny2024diffusion,
-  title="Diffusion-Based Environment-Aware Trajectory Prediction",
-  author={Westny, Theodor and Oskarsson, Bj{\"o}rn and Frisk, Erik},
-  journal={arXiv preprint arXiv:2403.11643},
-  year={2024},
-  abstract = {The ability to predict the future trajectories of traffic participants is crucial for the safe and efficient operation of autonomous vehicles. In this paper, a diffusion-based generative model for multi-agent trajectory prediction is proposed. The model is capable of capturing the complex interactions between traffic participants and the environment, accurately learning the multimodal nature of the data. The effectiveness of the approach is assessed on large-scale datasets of real-world traffic scenarios, showing that our model outperforms several well-established methods in terms of prediction accuracy. By the incorporation of differential motion constraints on the model output, we illustrate that our model is capable of generating a diverse set of realistic future trajectories. Through the use of an interaction-aware guidance signal, we further demonstrate that the model can be adapted to predict the behavior of less cooperative agents, emphasizing its practical applicability under uncertain traffic conditions.},
-  pdf = {https://arxiv.org/abs/2403.11643},
-  preview = {diff_preview.png},
-  bibtex_show={true},
-  selected={true},
+  title       = {Diffusion-Based Environment-Aware Trajectory Prediction},
+  author      = {Westny, Theodor and Oskarsson, Bj{\"o}rn and Frisk, Erik},
+  journal     = {arXiv preprint arXiv:2403.11643},
+  year        = {2024},
+  abstract    = {The ability to predict the future trajectories of traffic participants is crucial for the safe and efficient operation of autonomous vehicles. In this paper, a diffusion-based generative model for multi-agent trajectory prediction is proposed. The model is capable of capturing the complex interactions between traffic participants and the environment, accurately learning the multimodal nature of the data. The effectiveness of the approach is assessed on large-scale datasets of real-world traffic scenarios, showing that our model outperforms several well-established methods in terms of prediction accuracy. By the incorporation of differential motion constraints on the model output, we illustrate that our model is capable of generating a diverse set of realistic future trajectories. Through the use of an interaction-aware guidance signal, we further demonstrate that the model can be adapted to predict the behavior of less cooperative agents, emphasizing its practical applicability under uncertain traffic conditions.},
+  pdf         = {https://arxiv.org/abs/2403.11643},
+  preview     = {diff_preview.png},
+  bibtex_show = {true},
+  selected    = {false}
 }
 
 
 @article{westny2023graph,
-  journal={IEEE Transactions on Intelligent Vehicles},
-  title="{MTP-GO}: Graph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODEs}",
-  year={2023},
-  volume={8},
-  number={9},
-  pages={4223-4236},
-  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
-  abstract = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
-  bibtex_show={true},
-  doi={10.1109/TIV.2023.3282308},
-  pdf = {https://ieeexplore.ieee.org/abstract/document/10143287},
-  code = {https://github.com/westny/mtp-go},
-  preview = {mtp_preview.png},
-  selected={true},
+  journal     = {IEEE Transactions on Intelligent Vehicles},
+  title       = {{MTP-GO}: Graph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural {ODEs}},
+  year        = {2023},
+  volume      = {8},
+  number      = {9},
+  pages       = {4223-4236},
+  author      = {Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  abstract    = {Enabling resilient autonomous motion planning requires robust predictions of surrounding road users' future behavior. In response to this need and the associated challenges, we introduce our model, titled MTP-GO. The model encodes the scene using temporal graph neural networks to produce the inputs to an underlying motion model. The motion model is implemented using neural ordinary differential equations where the state-transition functions are learned with the rest of the model. Multi-modal probabilistic predictions are provided by combining the concept of mixture density networks and Kalman filtering. The results illustrate the predictive capabilities of the proposed model across various data sets, outperforming several state-of-the-art methods on a number of metrics.},
+  bibtex_show = {true},
+  doi         = {10.1109/TIV.2023.3282308},
+  pdf         = {https://ieeexplore.ieee.org/abstract/document/10143287},
+  code        = {https://github.com/westny/mtp-go},
+  preview     = {mtp_preview.png},
+  selected    = {true}
 }
 
 @inproceedings{westny2023evaluation,
-  title={Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
-  author={Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
-  booktitle={Intelligent Vehicles Symposium (IV)},
-  year={2023},
-  abstract = {Given their flexibility and encouraging performance, deep-learning models are becoming standard for motion prediction in autonomous driving. However, with great flexibility comes a lack of interpretability and possible violations of physical constraints. Accompanying these data-driven methods with differentially-constrained motion models to provide physically feasible trajectories is a promising future direction. The foundation for this work is a previously introduced graph-neural-network-based model, MTP-GO. The neural network learns to compute the inputs to an underlying motion model to provide physically feasible trajectories. This research investigates the performance of various motion models in combination with numerical solvers for the prediction task. The study shows that simpler models, such as low-order integrator models, are preferred over more complex, e.g., kinematic models, to achieve accurate predictions. Further, the numerical solver can have a substantial impact on performance, advising against commonly used first-order methods like Euler forward. Instead, a second-order method like Heun's can greatly improve predictions.},
-  bibtex_show={true},
-  doi={10.1109/IV55152.2023.10186615},
-  pdf = {https://ieeexplore.ieee.org/document/10186615},
-  code = {https://github.com/westny/mtp-go},
-  preview = {thumb_evaluation_diff.png},
+  title        = {Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction},
+  author       = {Westny, Theodor and Oskarsson, Joel and Olofsson, Bj{\"o}rn and Frisk, Erik},
+  booktitle    = {Intelligent Vehicles Symposium (IV)},
+  year         = {2023},
+  abstract     = {Given their flexibility and encouraging performance, deep-learning models are becoming standard for motion prediction in autonomous driving. However, with great flexibility comes a lack of interpretability and possible violations of physical constraints. Accompanying these data-driven methods with differentially-constrained motion models to provide physically feasible trajectories is a promising future direction. The foundation for this work is a previously introduced graph-neural-network-based model, MTP-GO. The neural network learns to compute the inputs to an underlying motion model to provide physically feasible trajectories. This research investigates the performance of various motion models in combination with numerical solvers for the prediction task. The study shows that simpler models, such as low-order integrator models, are preferred over more complex, e.g., kinematic models, to achieve accurate predictions. Further, the numerical solver can have a substantial impact on performance, advising against commonly used first-order methods like Euler forward. Instead, a second-order method like Heun's can greatly improve predictions.},
+  bibtex_show  = {true},
+  organization = {IEEE},
+  doi          = {10.1109/IV55152.2023.10186615},
+  pdf          = {https://ieeexplore.ieee.org/document/10186615},
+  code         = {https://github.com/westny/mtp-go},
+  preview      = {thumb_evaluation_diff.png}
 }
 
 @inproceedings{westny2021vehicle,
-	title={Vehicle Behavior Prediction and Generalization Using Imbalanced Learning Techniques},
-	author={Westny, Theodor and Frisk, Erik and Olofsson, Bj{\"o}rn},
-	booktitle={International Conference on Intelligent Transportation Systems (ITSC)},
-	pages={2003--2010},
-	year={2021},
-  abstract = {The use of learning-based methods for vehicle behavior prediction is a promising research topic. However, many publicly available data sets suffer from class distribution skews which limits learning performance if not addressed. This paper proposes an interaction-aware prediction model consisting of an LSTM autoencoder and SVM classifier. Additionally, an imbalanced learning technique, the multiclass balancing ensemble is proposed. Evaluations show that the method enhances model performance, resulting in improved classification accuracy. Good generalization properties of learned models are important and therefore a generalization study is done where models are evaluated on unseen traffic data with dissimilar traffic behavior stemming from different road configurations. This is realized by using two distinct highway traffic recordings, the publicly available NGSIM US-101 and I80 data sets. Moreover, methods for encoding structural and static features into the learning process for improved generalization are evaluated. The resulting methods show substantial improvements in classification as well as generalization performance.},
-  bibtex_show={true},
-  organization={IEEE},
-  pdf = {https://ieeexplore.ieee.org/document/9564948},
-  doi={10.1109/ITSC48978.2021.9564948},
-  code = {https://github.com/westny/imb-behavior-prediction},
-  preview = {imb_preview.png}
+  title        = {Vehicle Behavior Prediction and Generalization Using Imbalanced Learning Techniques},
+  author       = {Westny, Theodor and Frisk, Erik and Olofsson, Bj{\"o}rn},
+  booktitle    = {International Conference on Intelligent Transportation Systems (ITSC)},
+  pages        = {2003--2010},
+  year         = {2021},
+  abstract     = {The use of learning-based methods for vehicle behavior prediction is a promising research topic. However, many publicly available data sets suffer from class distribution skews which limits learning performance if not addressed. This paper proposes an interaction-aware prediction model consisting of an LSTM autoencoder and SVM classifier. Additionally, an imbalanced learning technique, the multiclass balancing ensemble is proposed. Evaluations show that the method enhances model performance, resulting in improved classification accuracy. Good generalization properties of learned models are important and therefore a generalization study is done where models are evaluated on unseen traffic data with dissimilar traffic behavior stemming from different road configurations. This is realized by using two distinct highway traffic recordings, the publicly available NGSIM US-101 and I80 data sets. Moreover, methods for encoding structural and static features into the learning process for improved generalization are evaluated. The resulting methods show substantial improvements in classification as well as generalization performance.},
+  bibtex_show  = {true},
+  organization = {IEEE},
+  pdf          = {https://ieeexplore.ieee.org/document/9564948},
+  doi          = {10.1109/ITSC48978.2021.9564948},
+  code         = {https://github.com/westny/imb-behavior-prediction},
+  preview      = {imb_preview.png}
 }
 
 @inproceedings{westny2022robust,
-	title={Uncertainties in Robust Planning and Control of Autonomous Tractor-Trailer Vehicles},
-	author={Westny, Theodor and Olofsson, Björn and Frisk, Erik},
-	booktitle={15th International Symposium on Advanced Vehicle Control (AVEC'22)},
-	year={2022},
-  abstract = {To study the effects of uncertainty in autonomous motion planning and control, an 8-DOF model of a tractor-semitrailer is implemented and analyzed. The implications of uncertainties in the model are then quantified and presented using sensitivity analysis and closed-loop simulations. The analysis reveals that the significance of various model parameters varies depending on the specific scenario under investigation. By using sampling-based closed-loop predictions, uncertainty bounds on state variable trajectories are determined. Our findings suggest the potential for the inclusion of our method within a robust predictive controller or as a driver-assistance system for rollover or lane departure warnings.},
-  bibtex_show={true},
-  pdf = {https://arxiv.org/abs/2311.14573},
-  preview = {unc_preview.png}
+  title       = {Uncertainties in Robust Planning and Control of Autonomous Tractor-Trailer Vehicles},
+  author      = {Westny, Theodor and Olofsson, Björn and Frisk, Erik},
+  booktitle   = {15th International Symposium on Advanced Vehicle Control (AVEC'22)},
+  year        = {2022},
+  abstract    = {To study the effects of uncertainty in autonomous motion planning and control, an 8-DOF model of a tractor-semitrailer is implemented and analyzed. The implications of uncertainties in the model are then quantified and presented using sensitivity analysis and closed-loop simulations. The analysis reveals that the significance of various model parameters varies depending on the specific scenario under investigation. By using sampling-based closed-loop predictions, uncertainty bounds on state variable trajectories are determined. Our findings suggest the potential for the inclusion of our method within a robust predictive controller or as a driver-assistance system for rollover or lane departure warnings.},
+  bibtex_show = {true},
+  pdf         = {https://arxiv.org/abs/2311.14573},
+  preview     = {unc_preview.png}
 }
 
 @inproceedings{westny2023stability,
-  title="Stability-Informed Initialization of Neural Ordinary Differential Equations",
-  author={Westny, Theodor and Mohammadi, Arman and Jung, Daniel and Frisk, Erik},
-  booktitle = {Proceedings of the 41st International Conference on Machine Learning},
-  pages = {52903--52914},
-  year={2024},
-  abstract = {This paper addresses the training of Neural Ordinary Differential Equations (neural ODEs), and in particular explores the interplay between numerical integration techniques, stability regions, step size, and initialization techniques. It is shown how the choice of integration technique implicitly regularizes the learned model, and how the solver's corresponding stability region affects training and prediction performance. From this analysis, a stability-informed parameter initialization technique is introduced. The effectiveness of the initialization method is displayed across several learning benchmarks and industrial applications.},
-  pdf = {https://arxiv.org/abs/2311.15890},
-  preview = {sii_small.png},
-  code = {https://github.com/westny/neural-stability},
-  bibtex_show={true},
-  selected={true},
+  title       = {Stability-Informed Initialization of Neural Ordinary Differential Equations},
+  author      = {Westny, Theodor and Mohammadi, Arman and Jung, Daniel and Frisk, Erik},
+  booktitle   = {Proceedings of the 41st International Conference on Machine Learning},
+  pages       = {52903--52914},
+  year        = {2024},
+  abstract    = {This paper addresses the training of Neural Ordinary Differential Equations (neural ODEs), and in particular explores the interplay between numerical integration techniques, stability regions, step size, and initialization techniques. It is shown how the choice of integration technique implicitly regularizes the learned model, and how the solver's corresponding stability region affects training and prediction performance. From this analysis, a stability-informed parameter initialization technique is introduced. The effectiveness of the initialization method is displayed across several learning benchmarks and industrial applications.},
+  pdf         = {https://arxiv.org/abs/2311.15890},
+  preview     = {sii_small.png},
+  code        = {https://github.com/westny/neural-stability},
+  bibtex_show = {true},
+  selected    = {true}
 }
 
 
 @article{mohammadi2023analysis,
-  title="Analysis of Numerical Integration in {RNN}-Based Residuals for Fault Diagnosis of Dynamic Systems",
-  author={Mohammadi, Arman and Westny, Theodor and Jung, Daniel and Krysander, Mattias},
-  journal = {IFAC-PapersOnLine},
-  volume = {56},
-  number = {2},
-  pages = {2909-2914},
-  year = {2023},
-  note = {22nd IFAC World Congress},
-  abstract = {Data-driven modeling and machine learning are widely used to model the behavior of dynamic systems. One application is the residual evaluation of technical systems where model predictions are compared with measurement data to create residuals for fault diagnosis applications. While recurrent neural network models have been shown capable of modeling complex non-linear dynamic systems, they are limited to fixed steps discrete-time simulation. Modeling using neural ordinary differential equations, however, make it possible to evaluate the state variables at specific times, compute gradients when training the model and use standard numerical solvers to explicitly model the underlying dynamic of the time-series data. Here, the effect of solver selection on the performance of neural ordinary differential equation residuals during training and evaluation is investigated. The paper includes a case study of a heavy-duty truck's after-treatment system to highlight the potential of these techniques for improving fault diagnosis performance.},
-  pdf = {https://arxiv.org/pdf/2305.04670.pdf},
-  preview = {rnn_preview.png},
-  bibtex_show={true},
+  title       = {Analysis of Numerical Integration in {RNN}-Based Residuals for Fault Diagnosis of Dynamic Systems},
+  author      = {Mohammadi, Arman and Westny, Theodor and Jung, Daniel and Krysander, Mattias},
+  journal     = {IFAC-PapersOnLine},
+  volume      = {56},
+  number      = {2},
+  pages       = {2909-2914},
+  year        = {2023},
+  note        = {22nd IFAC World Congress},
+  abstract    = {Data-driven modeling and machine learning are widely used to model the behavior of dynamic systems. One application is the residual evaluation of technical systems where model predictions are compared with measurement data to create residuals for fault diagnosis applications. While recurrent neural network models have been shown capable of modeling complex non-linear dynamic systems, they are limited to fixed steps discrete-time simulation. Modeling using neural ordinary differential equations, however, make it possible to evaluate the state variables at specific times, compute gradients when training the model and use standard numerical solvers to explicitly model the underlying dynamic of the time-series data. Here, the effect of solver selection on the performance of neural ordinary differential equation residuals during training and evaluation is investigated. The paper includes a case study of a heavy-duty truck's after-treatment system to highlight the potential of these techniques for improving fault diagnosis performance.},
+  pdf         = {https://arxiv.org/pdf/2305.04670.pdf},
+  preview     = {rnn_preview.png},
+  bibtex_show = {true}
+}
+
+@article{jung2026uncertainty,
+  title       = {Uncertainty-aware fault diagnosis of unknown faults using ensemble-based NODE residuals},
+  author      = {Jung, Daniel and Westny, Theodor},
+  journal     = {Mechanical Systems and Signal Processing},
+  abstract    = {This paper presents an uncertainty-aware approach to fault diagnosis using ensembles of neural ordinary differential equations for residual generation. The proposed method leverages physical insights in the design of the NODE models and employs bootstrap ensembles to quantify prediction uncertainty and adapt detection thresholds. The adaptive thresholds enable robust detection and isolation of faults in scenarios with limited training data. The methodology is validated on real-world data from an internal combustion engine test bench, providing insights into how training data quality and residual design impact uncertainty-aware fault diagnosis.},
+  volume      = {242},
+  pages       = {113599},
+  year        = {2026},
+  publisher   = {Elsevier},
+  bibtex_show = {true},
+  pdf         = {https://www.sciencedirect.com/science/article/pii/S0888327025013007}
 }

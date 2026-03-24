@@ -2,46 +2,53 @@
 layout: about
 title: About
 permalink: /
-subtitle: Linköping University #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Qualcomm | Autonomous Driving # <a href='#'>Affiliations</a>
 
 profile:
   align: right
   image: me.png
-  image_circular: true # crops the image to make it circular
+  image_circular: true
   more_info: >
     <p align="right">Ph.D.</p>
-    <p align="right">AI, ML, Motion Planning</p>
     <p align="right">Autonomous Driving</p>
+    <p align="right">Perception, E2E Systems, Planning</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Theodor Westny, Ph.D., is a researcher at the [Division of Vehicular Systems](https://liu.se/en/organisation/liu/isy/fs), Department of Electrical Engineering, Linköping University, Sweden. 
-His research is on AI and deep learning for applications in autonomous systems, generative modeling, learning continuous-time dynamics, autonomous motion planning and control as well as vehicle dynamics modeling. 
-He received his doctoral degree in January 2025 after he successfully defended his thesis titled ["Context-Aware Behavior Prediction for Autonomous Driving"](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1917579&dswid=-5338).
+Theodor Westny, Ph.D., is a Senior Engineer at Qualcomm, working on end-to-end autonomous driving systems, with a focus on learning-based planning and decision-making.
 
-He joined the Division of Vehicular Systems in August 2020 after obtaining his MSc. Degree in Electrical Engineering with the thesis ["Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers"](https://liu.diva-portal.org/smash/get/diva2:1452891/FULLTEXT01.pdf). 
-During his engineering studies, he did an exchange semester at [UNSW](https://www.unsw.edu.au/), Sydney, Australia and completed several software developer internships, including a visit in 2020 to the motion planning and controls team at [Embark Trucks](https://embarktrucks.com/), San Francisco, USA.
-Since 2018, he has been an active member of the global talent network, [Nova](https://www.novatalent.com/).
+His work spans perception, world modeling, and planning, including the development of end-to-end models that integrate scene understanding with control. He is particularly interested in multimodal and generative approaches, and how foundation models can enable scalable and generalizable autonomous driving systems.
+
+He received his doctoral degree in January 2025 from Linköping University, Sweden, with his thesis, ["Context-Aware Behavior Prediction for Autonomous Driving"](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1917579&dswid=-5338), which investigated multimodal trajectory prediction using deep probabilistic models and graph-based representations. 
+His research broadly focused on AI and deep learning for autonomous systems, including probabilistic and generative modeling, continuous-time dynamics, and vehicle dynamics modeling. In addition, he has worked on data-driven fault diagnosis and prognostics for industrial systems.
+
+He joined the Division of Vehicular Systems at Linköping University in August 2020 after obtaining his MSc. in Electrical Engineering, with a thesis on ["Modeling and Lateral Control of Tractor-Trailer Vehicles during Aggressive Maneuvers"](https://liu.diva-portal.org/smash/get/diva2:1452891/FULLTEXT01.pdf). During his studies, he completed an exchange semester at [UNSW](https://www.unsw.edu.au/), Sydney, Australia, and several internships in software engineering and autonomous driving, including at [Embark Trucks](https://embarktrucks.com/), San Francisco, USA.
+
+Since 2018, he has been a member of the global talent network [Nova](https://www.novatalent.com/).
 
 ### Research Interests
 
-* Spatio-Temporal Data Analysis
-  * Multi-agent Trajectory Prediction
-  * Learning on graphs, (Temporal) GNNs
-  * Learning continuous-time dynamics, Neural ODEs, PINN
+* Autonomous Driving
+  * End-to-end learning and decision-making
+  * Vision-Language-Action (VLA) models
+  * Motion planning and control
+  * World modeling and scene prediction
+
 * Probabilistic and Generative Modeling
   * Diffusion models
-  * Mixture density networks
   * Variational Autoencoders
-* Autonomous Vehicles
-  * Vehicle dynamics modeling
-  * Predictive control
-  * Advanced driver assistance systems
-  * End-to-end motion planning
+  * Mixture density networks
+  * Multimodal prediction
 
+* Spatio-Temporal Modeling
+  * Multi-agent systems
+  * Graph-based learning (GNNs)
+  * Continuous-time models (Neural ODEs)
+
+<!--
 ### Selected Ph.D. Coursework
 * Neural Networks and Deep Learning (6 ECTS)
 * Reinforcement Learning (6 ECTS)
@@ -55,6 +62,7 @@ Since 2018, he has been an active member of the global talent network, [Nova](ht
 * Advanced Motion Planning and Control (9 ECTS)
 * Optimal Vehicle Maneuvers (6 ECTS)
 * Observer Theory and Non-linear Design Techniques (6 ECTS)
+-->
 
 <!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
