@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p align="right">Ph.D.</p>
     <p align="right">Autonomous Driving</p>
-    <p align="right">Perception, E2E Systems, Planning</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
