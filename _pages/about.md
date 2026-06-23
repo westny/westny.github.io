@@ -2,15 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: Qualcomm | Autonomous Driving # <a href='#'>Affiliations</a>
+subtitle: Ph.D. | Qualcomm | Autonomous Driving
 
 profile:
   align: right
   image: me.png
   image_circular: true
-  more_info: >
-    <p align="right">Ph.D.</p>
-    <p align="right">Autonomous Driving</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
