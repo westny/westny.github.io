@@ -1,199 +1,212 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Theodor Westny",
+    "label": "Senior Engineer @ Qualcomm | Ph.D.",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "theodor.westny@gmail.com",
+    "phone": "",
+    "url": "https://westny.github.io",
+    "summary": "Senior Engineer at Qualcomm working on end-to-end autonomous driving systems, with a focus on learning-based planning and decision-making. Ph.D. in Electrical Engineering from Linköping University.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Stockholm",
+      "countryCode": "SE",
+      "region": "Stockholm County"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "theodor-westny",
+        "url": "https://www.linkedin.com/in/theodorwestny"
+      },
+      {
+        "network": "GitHub",
+        "username": "westny",
+        "url": "https://github.com/westny"
+      },
+      {
+        "network": "Google Scholar",
+        "username": "Theodor Westny",
+        "url": "https://scholar.google.com/citations?user=PJqOR8gAAAAJ"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Qualcomm",
+      "position": "Senior Engineer",
+      "url": "https://www.qualcomm.com",
+      "startDate": "2025-08-01",
+      "summary": "End-to-end learning and decision-making for autonomous driving. Vision-Language-Action models, world modeling, and scene prediction.",
+      "location": "Stockholm, Sweden"
+    },
+    {
+      "name": "Linköping University",
+      "position": "Lab Assistant & Teaching Assistant",
+      "url": "https://liu.se",
+      "startDate": "2017-09-01",
+      "endDate": "2020-01-01",
+      "summary": "Lab assistant in Automatic Control; teaching assistant in Linear Algebra; student ambassador.",
+      "location": "Linköping, Sweden"
+    },
+    {
+      "name": "Embark Trucks",
+      "position": "Software Engineer Intern",
+      "url": "https://embarktrucks.com",
+      "startDate": "2020-01-01",
+      "endDate": "2020-06-01",
+      "summary": "Autonomous trucking software engineering.",
+      "location": "San Francisco, USA"
+    },
+    {
+      "name": "Cybercom Group",
+      "position": "Summer Intern",
+      "startDate": "2017-06-01",
+      "endDate": "2019-08-01",
+      "summary": "Developed proof-of-concept for wireless sensing in IIoT applications.",
+      "location": "Linköping, Sweden"
+    },
+    {
+      "name": "Cambio Healthcare Systems",
+      "position": "Summer Intern",
+      "startDate": "2016-06-01",
+      "endDate": "2016-08-01",
+      "location": "Linköping, Sweden"
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Nova",
+      "position": "Member",
+      "url": "https://www.novatalent.com",
+      "startDate": "2018-08-01",
+      "summary": "Global talent network for tech and business leaders."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Linköping University",
+      "location": "Linköping, Sweden",
+      "url": "https://liu.se",
+      "area": "Electrical and Electronics Engineering",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "startDate": "2020-08-01",
+      "endDate": "2025-08-01"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "UNSW",
+      "location": "Sydney, Australia",
+      "url": "https://www.unsw.edu.au",
+      "area": "Postgraduate Coursework (Study Abroad)",
+      "studyType": "Exchange",
+      "startDate": "2019-01-01",
+      "endDate": "2019-12-01"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "institution": "Linköping University",
+      "location": "Linköping, Sweden",
+      "url": "https://liu.se",
+      "area": "Applied Physics and Electrical Engineering",
+      "studyType": "MSc",
+      "startDate": "2014-08-01",
+      "endDate": "2020-06-01"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "Linköping University",
+      "location": "Linköping, Sweden",
+      "url": "https://liu.se",
+      "area": "Science and Technology",
+      "studyType": "Foundation Year",
+      "startDate": "2013-08-01",
+      "endDate": "2014-06-01"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Toward Unified Practices in Trajectory Prediction Research on Bird's-Eye-View Datasets",
+      "publisher": "IEEE Intelligent Vehicles Symposium (IV)",
+      "releaseDate": "2025-01-01",
+      "url": "https://arxiv.org/abs/2405.00604"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Stability-Informed Initialization of Neural Ordinary Differential Equations",
+      "publisher": "International Conference on Machine Learning (ICML)",
+      "releaseDate": "2024-07-01",
+      "url": "https://arxiv.org/abs/2311.15890"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Diffusion-Based Environment-Aware Trajectory Prediction",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2024-03-01",
+      "url": "https://arxiv.org/abs/2403.11643"
+    },
+    {
+      "name": "MTP-GO: Graph-Based Probabilistic Multi-Agent Trajectory Prediction with Neural ODEs",
+      "publisher": "IEEE Transactions on Intelligent Vehicles",
+      "releaseDate": "2023-01-01",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10143287"
+    },
+    {
+      "name": "Evaluation of Differentially Constrained Motion Models for Graph-Based Trajectory Prediction",
+      "publisher": "IEEE Intelligent Vehicles Symposium (IV)",
+      "releaseDate": "2023-01-01",
+      "url": "https://ieeexplore.ieee.org/document/10186615"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Machine Learning",
+      "level": "Expert",
+      "icon": "fa-solid fa-brain",
+      "keywords": ["PyTorch", "Python", "Deep Learning", "Probabilistic Modeling", "Generative Models", "Graph Neural Networks", "Neural ODEs"]
+    },
+    {
+      "name": "Autonomous Driving",
+      "level": "Expert",
+      "icon": "fa-solid fa-car",
+      "keywords": ["End-to-End Planning", "Motion Prediction", "World Modeling", "Vision-Language-Action Models"]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Swedish",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Professional working proficiency",
       "icon": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "issuer": "Coursera",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Group Trainer",
+      "issuer": "SAFE Education",
+      "icon": "fa-solid fa-person-running"
+    },
+    {
+      "name": "Open Water Diver",
+      "icon": "fa-solid fa-water"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Autonomous Driving",
+      "icon": "fa-solid fa-car",
+      "keywords": ["End-to-End Learning", "VLA Models", "Motion Planning", "World Modeling"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Generative Modeling",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": ["Diffusion Models", "Variational Autoencoders", "Multimodal Prediction"]
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "references": [],
+  "projects": [],
+  "awards": []
 }
