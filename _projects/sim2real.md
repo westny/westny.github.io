@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Sim2Real Autonomous Driving Platform
+title: Sim2Real
 description: A simulation-to-reality platform for autonomous driving research, from virtual agents to real robots.
 img: assets/img/sim2real/hero.jpg
-importance: 1
+importance: 2
 category: research
 related_publications: false
 toc:

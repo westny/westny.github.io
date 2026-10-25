@@ -50,6 +50,11 @@ on:
       - "!INSTALL.md"
       - "!README.md"
   workflow_dispatch:
+  # Rebuild on a schedule so Google Scholar citation counts (scraped at
+  # build time by _plugins/google-scholar-citations.rb) stay fresh.
+  # Runs at 04:00 UTC on the 1st and 15th of each month (~bi-weekly).
+  schedule:
+    - cron: "0 4 1,15 * *"
 
 permissions:
   contents: write

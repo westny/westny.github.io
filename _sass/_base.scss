@@ -625,6 +625,10 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
+      // Keep all project-card thumbnails at a uniform aspect ratio so cards
+      // line up regardless of the source image's dimensions.
+      aspect-ratio: 3 / 2;
+      object-fit: cover;
     }
   }
 
